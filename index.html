@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal portfolio website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f0a9bd2a61.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+            <div id="header">
+                 <div class="container">
+                    <nav>
+                        <img src="images/logo.png" class="logo manoj">
+                        <ul id="sidemenu">
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Service</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    </nav>
+                    <div class="header-text">
+                        
+                        <h1>Hi,I'm <span>Manoj</span><br>ratna kumar</h1>
+                        <p>i'm a computer science student</p>
+                    </div>
+                 </div>
+            </div>
+<!--------about--------->
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="images/user.png" alt="">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">Objective</h1>
+                            <br>
+                            <p>Looking forward to leveraging my
+                                unwavering dedication and zeal to
+                                learn for accomplishing the
+                                reputation of a successful software
+                                engineer. To be a part of challenging
+                                and competitive organization that
+                                utilizes my technical knowledge and
+                                interpersonal skills. enriching my
+                                profile with same</p>
+                            <div class="tab-titles">
+                               <p class="tab-links ative-link" onclick="opentab('skills')">Skills</p> 
+                               <p class="tab-links" onclick="opentab('experiance')">Technical skills</p> 
+                               <p class="tab-links" onclick="opentab('education')">Education</p> 
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>knowledge</span><br>knowledge in programming language</li>
+                                    <li><span>Communication</span><br>Good at communication skills in English ans Telugu</li>
+                                    <li><span>Team work</span><br>Good at team work and team management</li>
+                                    <li><span>Time management</span><br>I can manage the time according to the work </li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experiance">
+                                <ul>
+                                    <li><span>programming</span><br>Good in the programming languages in python and java</li>
+                                    <li><span>Web Development</span><br>Good in the front end development(HTML and CSS)</li>
+                                    <li><span>Database</span><br>Good in Mysql</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>B.Tech (2020-2024)</span><br>LENDI INSTITUTE OF ENGINEERING AND TECHNOLOGY <br> CGPA : 8.21</li>
+                                    <li><span>Intermediate (2018-2020)</span><br>VIDYA VIKAS JUNIOR COLLEGE <br>CGPA : 8.61</li>
+                                    <li><span>10th Standard (2017-2018)</span><br>SURYA HIGH SCHOOL <br>CGPA : 8.8</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--------services--------->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I have some technical stuff about HTML , CSS and JAVA SCRIPT which makes me to design a effective web pages.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+
+                <i class="fa-solid fa-database"></i>
+                <h2>Database</h2>
+                <p>My Database management skills involve understanding how to write reports and queries using tools and copying data into excel or other types of formates to analyze them further</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+
+                <i class="fa-brands fa-java"></i>
+                <h2>Java programming</h2>
+                <p>I learnt concepts of core java and java frame work like sprint and driver software called JDBC which connects the java API with Database</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------aicte---------> 
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My AICTE Certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>AI-ML virtual internship</h3>
+                    <p>I have completed the AI-ML virtual internship and get certified by the AICTE.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Process Mining virtual internship</h3>
+                    <p>I have completed the Process Mining virtual internship and get certified by the AICTE.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Data Analytic Process Automation</h3>
+                    <p>I have completed the Data Analytic Process Automation and get certified by the AICTE.</p>
+
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-4.png" alt="">
+                <div class="layer">
+                    <h3>Cyber security virtual internship</h3>
+                    <p>I have completed the Cyber  virtual internship and get certified by the AICTE.</p>
+
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!--------nptel---------> 
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My NPTEL Certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-5.png" alt="">
+                <div class="layer">
+                    <h3>Introduction to Internet Of Things</h3>
+                    <p>I have completed the introduction to Internet Of Things MOOCS course and get certified by the NPTEL.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-6.png" alt="">
+                <div class="layer">
+                    <h3>Joy Of Computing using Python</h3>
+                    <p>I have completed the Joy Of Computing using Python MOOCS course and get certified by the NPTEL.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!--------other certifications---------> 
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Other Certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-7.png" alt="">
+                <div class="layer">
+                    <h3>Salesforce Developer virtual internship</h3>
+                    <p>I have completed the Salesforce Developer virtual internship and get certified by the SMART INTERNSHIP.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-8.png" alt="">
+                <div class="layer">
+                    <h3>Problem solviing basic (Python)</h3>
+                    <p>I have completed the Problem solviing basic (Python) and get certified by the HackerRank.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-9.png" alt="">
+                <div class="layer">
+                    <h3>Microsoft 365 certified : Security Administrator Associate</h3>
+                    <p>I have completed the Security Administrator Associate and get certified by the MICROSOFT.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+
+            <div class="work">
+                <img src="images/work-10.png" alt="">
+                <div class="layer">
+                    <h3>Web Development Bootcamp Certificaton</h3>
+                    <p>I have completed the Web Development Bootcamp and get certified by the UDEMY.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+
+<!--------projects---------> 
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <br>
+        <div class="project-list">
+                
+                    
+            <h3><i class="fa-solid fa-hand-point-right"></i><a href="https://mrmanu6020.github.io/mr_manu__zigrock/" class="prjct" >FRONT END PROJECT (Portfolio)......</a></h3>
+                    
+                
+        </div>     
+</div>
+
+
+<br><br>
+
+
+<!----------vesume------------>
+<div id="Visume">
+    <div class="container">
+        <h1 class="sub-title">My Visume</h1>
+        <br>
+        <iframe width="560" height="315" class="visume" src="https://www.youtube.com/embed/78KyohaZeaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!--------contact---------> 
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rk01.manoj@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>8688721577</p>
+                <div class="social-icons">
+                    <a href="#complete url of that media"><i class="fa-brands fa-facebook"></i></a> 
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a> 
+                    <a href=""><i class="fa-brands fa-instagram"></i></a> 
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a> 
+                                
+                </div>
+                <div>
+                    <a href="images/my resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+            </div>
+            
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> Manoj . created by manoj ratna kumar <i class="fa-regular fa-heart"></i> </p>
+    </div>
+</div>
+
+
+
+
+            <script>
+
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+                
+                function opentab(tabname){
+                        for(tablink of tablinks){
+                            tablink.classList.remove("active-link");
+                        }
+                        for(tabcontent of tabcontents){
+                            tabcontent.classList.remove("active-tab");
+                        }
+                        event.currentTarget.classList.add("active-link");
+                        document.getElementById(tabname).classList.add("active-tab")
+                }
+                
+
+
+            </script>
+
+<script>
+    var sidemanu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemanu.style.right = "0";
+    }
+    function closemenu(){
+        sidemanu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxcJaX6B2HxjVupbrh5zvR3P2PTRWeBE3e4cBCzmmzmQM2GAMRtV7slfc0IGpyuESvw2w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+               msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <section>
+
+  </section>
+
+<a href="#" class="gotopbtn"><i class="fa-solid fa-angle-up"></i></a>
+
+    </body>
+</html>
